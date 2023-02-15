@@ -11,3 +11,12 @@ int sumOfList(vector<int> a)
 	}
 	return sum;
 }
+
+int productOfList(vector<int> a)
+{
+	int product = 1;
+	for (int i = 0; i < a.size(); ++i) {
+		product *= a[i];
+	}
+	return product;
+}
