@@ -1,8 +1,12 @@
 #include <iostream>
 #include <vector>
 
+<<<<<<< HEAD
 
 //edit 2
+=======
+//Task 10 edit
+>>>>>>> 2129232 (Task10 change)
 using namespace std;
 
 int sumOfList(vector<int> a)
