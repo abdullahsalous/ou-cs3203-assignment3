@@ -43,7 +43,7 @@ int main() {
 
 	cout << "Sum: " << sumOfList(array) << endl;
 	cout << "Product: " << productOfList(array) << endl;
-
+	cout << "Reversed Array: " << endl;
 	array = reverse(array);
 	for (int i = 0; i < array.size(); ++i) {
 		cout << array[i] << ' ';
