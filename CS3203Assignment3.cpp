@@ -21,6 +21,15 @@ int productOfList(vector<int> a)
 	return product;
 }
 
+vector<int> reverse(vector<int> a) {
+	vector<int> newA;
+	for (int i = a.size() - 1; i >= 0; --i) {
+		newA.push_back(a[i]);
+	}
+
+	return newA;
+}
+
 int main() {
 	
 	cout << "Type values to create an int array seperated by a space and type a random character once finished" << endl;
@@ -33,6 +42,12 @@ int main() {
 	}
 
 	cout << "Sum: " << sumOfList(array) << endl;
-	cout << "Product: " << productOfList(array);
+	cout << "Product: " << productOfList(array) << endl;
+
+	array = reverse(array);
+	for (int i = 0; i < array.size(); ++i) {
+		cout << array[i] << ' ';
+	}
+
 	return 0;
 }
